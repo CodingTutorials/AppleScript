@@ -1,46 +1,32 @@
-# Variables
+# Display Dialog
 
-Write a string (This can be any combination of letters).
-
-```
-Hello 
-```
-
-Then add a space and an equal sign.
-
-```applescript
-Hello = 
-```
-
-If you want an integer, add a space and put a number.
+Write display dialog in script editor.
 
 ```
-Hello = 1
+display dialog
 ```
-If you want the integer go up by a number, add a plus before the equals.
-```
-Hello += 1
-```
-If you want a string, put the string in between a pair of quotation marks.
+
+Then add a space and 2 quotaion marks with text in between
 
 ```
-Hello = "Variable"
+display dialog "hello world"
 ```
+
+Click "run"
 
 ## Examples
 
 ### Example 1:
 ```
-dollars = 100
+display dialog "hi there!"
 ```
 
 ### Example 2:
 ```
-dollars = "none"
+display dialog "hey yo sup"
 ```
 
 ### Example 3:
 ```
-dollars = 1
-dollars += 1
+display dialog "abc123"
 ```
